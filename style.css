@@ -191,7 +191,6 @@ img{
 	height: 80vh;
 	background-attachment: fixed;
 	clip-path: polygon(0% 0%, 100% 0%, 100% 90%, 50% 100%, 0% 90%);
-	margin-top: -px;
 }
 .banner-layer h1{
 	font-size:40px;
@@ -254,34 +253,47 @@ button{
 	justify-content: space-between;
 }
 .section-3{
-	padding: 50px 0;
+	
 	height: 100%;
-	background-color: #58585A;
+	background-image: url(images/pexels-christina-morillo-1181396.jpg);
+	width: 100%;
+	height: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
 }
+.sec-3-layer{
+	background-color: rgba(0, 0, 0, .7);
+	width: 100%;
+	height: 100%;
+	padding: 50px 0;
+}
+
 .section-3 h2{
+	width: 40%;
 	font-weight: 600;
-	margin: 40px 0;
+	margin: 40px auto;
 	color: white;
 	font-size: 25px;
 }
 
 
 .health-text-area{
-	background-color: whitesmoke;
+	background-color:;
 	border-radius: 15px;
-	border: 5px solid whitesmoke;
-	padding-top: 4px;
+	padding-top: 14px;
 }
 .health-text:hover{
 	transform: scale(1.05);
 	box-shadow: 0px 0px 5px whitesmoke;
+	border: 0px solid transparent;
 }
 .health-text{
 	width: 100%;
 	margin: 0 auto;
-	background-color: #0065B2;
+	/*background-color: rgba(0, 0, 0, .5);*/
 	padding: 15px;
-	color: whitesmoke;
+	color: black;
 	border-radius: 15px;
 	transition: .5s;
 	 text-align: center;
@@ -341,7 +353,7 @@ button{
 .section-4 h2:first-letter{
 	font-size: 50px;
 	color: #0065B2;
-	font-style: italic;
+	font-style: ;
 
 }
 .section-4 h2{
@@ -473,13 +485,14 @@ button{
 	position: relative;
 }
 .section-5 h2{
+	width: 50%;
 	text-align: center;
 	font-size:25px;
 	text-transform: uppercase;
-	margin: 25px 0;
+	margin: 25px  auto;
 	overflow: hidden;
 	position: relative;
-	
+	font-weight: 700;
 }
 .section-5 .arrow{
 	width: 100%;
@@ -552,8 +565,9 @@ button{
 	margin: 20px 0;
 }
 .section-6 h2{
+	width: 50%;
 	font-weight: 600;
-	margin: 35px 0;
+	margin: 35px auto;
 	font-size: 26px;
 }
 .section-6 p{
@@ -888,6 +902,11 @@ button{
 	margin: ;
 	padding: 35px 0;
 	margin-bottom: 0;
+	background-image: url(images/pexels-icsa-1709003.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 100%;
 }
 .section-9 h2{
 	font-size: 42px;
@@ -1096,6 +1115,9 @@ button{
 	margin-bottom: 0px;
 	
 }
+.work-box:hover{
+	transform: scale(1.05);
+}
 .work-box{
 	width: 32%;
 	color: black;
@@ -1199,7 +1221,7 @@ button{
 
 */
 
-
+/*
 
 .section-12{
 	margin-top: 0px;
@@ -1246,7 +1268,7 @@ button{
 	text-align: center;
 }
 
-
+*/
 
 .section-13{
 	margin: 00px 0;
