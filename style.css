@@ -1072,6 +1072,9 @@ button{
 	color:#BCBDC0 ;
 }
 
+.section-10 .left-area:first-child .button{
+	margin-top:250px;
+}
 .section-10 .start-now{
 	width: 100%;
 	margin: 15px 0;
